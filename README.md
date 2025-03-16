@@ -7,7 +7,7 @@
 </p>
 
 ## 📋 Project Overview
-This project was developed as part of the **"Programming Methodology"** subject of the **Computer Science and Mathematics** dual degree.
+This project was developed as part of the **"Programming Methodology"** subject of the **Computer Science and Mathematics** dual degree in the University of Granada.
 
 The main goal is to create a program capable of **analyzing and comparing genomes** from different species to identify similarities and differences between them.
 
@@ -116,7 +116,7 @@ This technique is useful in fields like bioinformatics, genomics research, and v
 ---
 
 ## 🎓 Educational Context
-This project was designed for academic purposes within the "Programming Methodology" course, helping me practice:
+This project was designed for academic purposes within the "Programming Methodology" subject, helping me practice:
 
 🎯 Object-Oriented Programming (OOP)  
 🎯 Dynamic memory management  
