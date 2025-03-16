@@ -1,11 +1,5 @@
 # 🧬 Kmer - Genome Classifier
 
-<p align="center">
-  <img src="https://img.shields.io/badge/C%2B%2B-11-blue?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux/Mac/Windows-Compatible-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
-</p>
-
 ## 📋 Project Overview
 This project was developed as part of the **"Programming Methodology"** subject of the **Computer Science and Mathematics** dual degree in the University of Granada.
 
