@@ -44,7 +44,7 @@ Counts K-mers in DNA/RNA sequences and **builds profiles** from multiple individ
 Creates a **genomic profile** for a species from a set of genome files.
 
 #### **Usage:**
-```sh
+```
 LEARN [-t|-b] [-p profileId] [-k kValue] [-n nucleotidesSet] [-o outputFile] input1.dna [input2.dna ...]
 ```
 
