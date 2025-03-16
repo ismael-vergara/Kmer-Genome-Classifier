@@ -1,5 +1,11 @@
 # 🧬 Kmer - Genome Classifier
 
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-11-blue?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux/Mac/Windows-Compatible-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
+</p>
+
 ## 📋 Project Overview
 This project was developed as part of the **"Programming Methodology"** subject of the **Computer Science and Mathematics** dual degree.
 
@@ -10,15 +16,15 @@ The project is based on the analysis of **K-mers**, which are nucleotide sequenc
 ---
 
 ## 🚀 Main Features
-✅ **K-mer Extraction:** Processes genomic sequences to extract K-mers of variable length.
-✅ **Species Profile Generation:** Builds species profiles (*Profile*) based on K-mer frequencies using the `LEARN` executable.
-✅ **Classification of Unknown Genomes:** Compares unknown genome sequences to known species profiles using the `CLASSIFY` executable.
-✅ **Binary and Text Input/Output:** Supports both text and binary file formats for profile management.
-✅ **Operator Overloading and Comparison:** Implements comparison operators for K-mers and K-mer frequencies to facilitate sorting and analysis.
+- ✅ **K-mer Extraction:** Processes genomic sequences to extract K-mers of variable length.  
+- ✅ **Species Profile Generation:** Builds species profiles (*Profile*) based on K-mer frequencies using the `LEARN` executable.  
+- ✅ **Classification of Unknown Genomes:** Compares unknown genome sequences to known species profiles using the `CLASSIFY` executable.  
+- ✅ **Binary and Text Input/Output:** Supports both text and binary file formats for profile management.  
+- ✅ **Operator Overloading and Comparison:** Implements comparison operators for K-mers and K-mer frequencies to facilitate sorting and analysis.  
 
 ---
 
-## 🧬 Modules and Classes
+## 📦 Modules and Classes
 ### 📌 `Kmer`
 Represents K-mers and handles their **manipulation, normalization, and I/O operations** (binary and text).
 
@@ -74,7 +80,6 @@ CLASSIFY unknown.dna profile1.prf [profile2.prf ...]
 ├── 📂 output/        # Generated profiles
 └── 📜 README.md
 ```
-
 ---
 
 ## ⚙️ Compilation and Execution
@@ -98,26 +103,23 @@ g++ Kmer.cpp KmerFreq.cpp Profile.cpp KmerCounter.cpp CLASSIFY.cpp -o classify
 ---
 
 ## ✅ Requirements
-🔹 **C++11 or higher**
-🔹 **NetBeans** (optional, for project management)
-🔹 **Compatible with Linux, MacOS, and Windows** (with minor adjustments)
+🔹 **C++11 or higher**  
+🔹 **NetBeans** (optional, for project management)  
+🔹 **Compatible with Linux, MacOS, and Windows** (with minor adjustments)  
 
 ---
 
 ## 🌐 Example Use Case
-Given genome sequences of **Homo sapiens, Chimpanzee, and SARS-CoV-2 (Covid-19)**, this tool can generate **profiles** for each species.
-
-Later, an **unknown genome** can be classified by comparing its profile to the existing profiles, identifying which species it is most similar to.
-
-This technique is useful in fields like **bioinformatics, genomics research, and virology** for species identification and genetic analysis.
+Given genome sequences of Homo sapiens, Chimpanzee, and SARS-CoV-2 (Covid-19), this tool can generate profiles for each species. Later, an unknown genome can be classified by comparing its profile to the existing profiles, identifying which species it is most similar to.
+This technique is useful in fields like bioinformatics, genomics research, and virology for species identification and genetic analysis.
 
 ---
 
 ## 🎓 Educational Context
-This project was designed for **academic purposes** within the "Programming Methodology" course, helping me practice:
+This project was designed for academic purposes within the "Programming Methodology" course, helping me practice:
 
-🎯 **Object-Oriented Programming (OOP)**  
-🎯 **Dynamic memory management**  
-🎯 **Text and binary file handling**  
-🎯 **Operator overloading in C++**  
-🎯 **Modular and scalable software design for scientific computing**  
+🎯 Object-Oriented Programming (OOP)  
+🎯 Dynamic memory management  
+🎯 Text and binary file handling  
+🎯 Operator overloading in C++  
+🎯 Modular and scalable software design for scientific computing  
